@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, #3d73cbbd, #7b83b7), url(/src/imgs/header-50-quotes-about-music.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.primary-heading {
+    color: white;
+    text-transform: uppercase;
+}
+
+.primary-main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+    animation-name: moveInleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    /*
+        animation-delay: ;
+        animation-iteration-count: ;
+    */
+}
+
+.primary-sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 17.4px;
+    animation-name: moveInright;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes moveInleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+
+}
+
+@keyframes moveInright {
+    0% {
+        opacity: 0;
+        transform: translateX(100px)
+            /*rotate can also be used*/
+        ;
+    }
+
+    80% {
+        transform: translateX(-10px);
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

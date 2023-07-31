@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right bottom, #3d73cbbd, #7b83b7), url(/src/imgs/space-retro-futurism-city-background-with-modern-elements-free-vector.jpg);
+
+    background-size: cover;
+}
+
+.playlist-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f7;
+    /* Light purple background */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: rgb(144, 0, 255);
+}
+
+p {
+    margin: 10px 0;
+}
+
+p.creator {
+    font-weight: 700;
+    color: black;
+}
+
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    /* Blue button background */
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.add-songs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.add-songs input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.add-button {
+    margin-bottom: 5px;
+    background-color: #0056b3;
+}
+
+
+.save-button {
+    margin-right: 10px;
+}
+
+.save-button:hover {
+    background-color: green;
+}
+
+.delete-playlist:hover {
+    background-color: red;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer button {
+    padding: 8px;
+    border: none;
+    background-color: #6f42c1;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.fb-button {
+    margin-right: 10px;
+}
+
+.footer button:hover {
+    background-color: #592e99;
+}
+
+button,
+.playlist-detail {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.loading {
+    color: #999;
+}
+
+.error {
+    color: red;
+}

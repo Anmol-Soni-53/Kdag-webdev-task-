@@ -1,0 +1,163 @@
+{
+  "playlist": [
+    {
+      "details": {
+        "title": "My songs 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "creator": "mario"
+      },
+      "names": [
+        {
+          "name": "asda",
+          "artist": "sdas",
+          "votes": 13
+        },
+        {
+          "name": "sdgdgsdgsd",
+          "artist": "qwef",
+          "votes": 11
+        },
+        {
+          "name": "qwwq2",
+          "artist": "sdfasdf",
+          "votes": 0
+        },
+        {
+          "name": "aasd",
+          "artist": "AsdaSD",
+          "votes": 3
+        },
+        {
+          "name": "aasd",
+          "artist": "AsdaSD",
+          "votes": 1
+        },
+        {
+          "name": "agaegeagsg",
+          "artist": "sdggsdgsg",
+          "votes": 0
+        },
+        {
+          "name": "fsdsdfs",
+          "artist": "sdfsdfs",
+          "votes": 0
+        }
+      ],
+      "id": 1
+    },
+    {
+      "details": {
+        "title": "My songs 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "creator": "luigi"
+      },
+      "names": [
+        {
+          "name": "song3",
+          "artist": "artist3",
+          "votes": 0
+        },
+        {
+          "name": "song10000",
+          "artist": "artist10000",
+          "votes": 0
+        }
+      ],
+      "id": 2
+    },
+    {
+      "details": {
+        "title": "My song 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "creator": "drake"
+      },
+      "names": [
+        {
+          "name": "song5",
+          "artist": "artist5",
+          "votes": 0
+        },
+        {
+          "name": "song6",
+          "artist": "artist6",
+          "votes": 0
+        },
+        {
+          "name": "song7",
+          "artist": "artist7",
+          "votes": 0
+        }
+      ],
+      "id": 3
+    },
+    {
+      "details": {
+        "title": "My song 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "creator": "john"
+      },
+      "names": [
+        {
+          "name": "song8",
+          "artist": "artist8",
+          "votes": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "details": {
+        "title": "My song 5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "creator": "anmol"
+      },
+      "names": [
+        {
+          "name": "song9",
+          "artist": "artist9",
+          "votes": 1
+        },
+        {
+          "name": "song10",
+          "artist": "artist10",
+          "votes": 1
+        },
+        {
+          "name": "song11",
+          "artist": "artist11",
+          "votes": 2
+        }
+      ],
+      "id": 5
+    },
+    {
+      "details": {
+        "title": "test",
+        "description": "test",
+        "creator": "test"
+      },
+      "names": [
+        {
+          "name": "songtest",
+          "artist": "test",
+          "votes": 3
+        },
+        {
+          "name": "test1",
+          "artist": "test1",
+          "votes": 4
+        }
+      ],
+      "id": 6
+    },
+    {
+      "details": {
+        "title": "playlist 1",
+        "description": "lorem ipsum",
+        "creator": "test"
+      },
+      "names": [],
+      "id": 7
+    }
+  ]
+}
